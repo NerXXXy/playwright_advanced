@@ -1,0 +1,23 @@
+{
+  "name": "playwright_nextLVL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NerXXXy/playwright_nextLVL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NerXXXy/playwright_nextLVL/issues"
+  },
+  "homepage": "https://github.com/NerXXXy/playwright_nextLVL#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.24.1"
+  }
+}
