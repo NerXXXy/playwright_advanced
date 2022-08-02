@@ -10,6 +10,7 @@ const config = {
        screenshot:'only-on-failure', // same as video
        video: 'on', // on/off(default) or on failture
        trace: 'on', // tracing !!!!
+       workers: 2,  // how many workers can work at once (how many tests you can run at same time)
     },
 
     testDir:'tests',  //get tests from
