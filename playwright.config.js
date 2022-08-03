@@ -10,13 +10,16 @@ const config = {
        screenshot:'only-on-failure', // same as video
        // video: 'on', // on/off(default) or on failture
        //  trace: 'on', // tracing !!!!
-       workers: 2,  // how many workers can work at once (how many tests you can run at same time)
+
     },
 
     testDir:'tests',  //get tests from
     retries: 2,  // repeats of test if fail
     timeout: 60000,  //timeout
-
+    workers: 2,  // how many workers can work at once (how many tests you can run at same time)
+    // reporter: 'dot', // default reporter
+    //reporter:'./my-reporter.js', //how to use your own reporter
+    reporter: "experimental-allure-playwright",
     projects: [
         {
             name: 'Chromium_600x800',
